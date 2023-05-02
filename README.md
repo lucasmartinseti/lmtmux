@@ -16,7 +16,7 @@ brew install tmux awk perl sed tmux-mem-cpu-load reattach-to-user-namespace
 
 ##### Install config Tmux
 ```console
-git git@gitlab.com:lucasmartins.py/lmtmux.git ~/.config/lmtmux
+git clone git@gitlab.com:lucasmartins.py/lmtmux.git ~/.config/lmtmux
 ```
 
 ##### Install oh-my-tmux
