@@ -22,6 +22,6 @@ git git@gitlab.com:lucasmartins.py/lmtmux.git ~/.config/lmtmux
 ##### Install oh-my-tmux
 ```console
 git clone https://github.com/gpakosz/.tmux.git ~/.tmux
-ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
-ln -s ~/.config/lmtmux/tmux.conf.local ~/.tmux.conf.local
+ln -s -f ~/.tmux/.tmux.conf ~/.tmux.conf
+ln -s -f ~/.config/lmtmux/tmux.conf.local ~/.tmux.conf.local
 ```
