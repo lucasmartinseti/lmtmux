@@ -13,10 +13,31 @@
 ```console
 brew install tmux awk perl sed tmux-mem-cpu-load reattach-to-user-namespace
 ```
+###### Linux
+
+#### Install tmux-mem-cpu-load
+```console
+sudo apt install -y cmake
+```
+
+```console
+git clone https://github.com/thewtex/tmux-mem-cpu-load.git ~/tmux-mem-cpu-load
+cd ~/tmux-mem-cpu-load
+cmake .
+make
+sudo make install
+rm -rf ~/tmux-mem-cpu-load
+logout
+```
+
+#### Install tmux
+```console
+sudo apt install -y tmux xsel
+```
 
 ##### Install config Tmux
 ```console
-git clone git@gitlab.com:lucasmartins.py/lmtmux.git ~/.config/lmtmux
+git clone https://gitlab.com/lucasmartinseti/lmtmux.git ~/.config/lmtmux
 ```
 
 ##### Install oh-my-tmux
