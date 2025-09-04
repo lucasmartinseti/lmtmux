@@ -17,17 +17,7 @@ brew install tmux awk perl sed tmux-mem-cpu-load reattach-to-user-namespace
 
 #### Install tmux-mem-cpu-load
 ```console
-sudo apt install -y cmake
-```
-
-```console
-git clone https://github.com/thewtex/tmux-mem-cpu-load.git ~/tmux-mem-cpu-load
-cd ~/tmux-mem-cpu-load
-cmake .
-make
-sudo make install
-rm -rf ~/tmux-mem-cpu-load
-logout
+brew install tmux-mem-cpu-load
 ```
 
 #### Install tmux
