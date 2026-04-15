@@ -343,6 +343,9 @@ tmux_conf_copy_to_os_clipboard=true
 # -- user customizations -------------------------------------------------------
 # this is the place to override or undo settings
 
+# Config format send keys
+set -g extended-keys-format csi-u
+
 # split current window horizontally
 bind h split-window -v
 # split current window vertically
